@@ -1,0 +1,11 @@
+:root { color-scheme: dark; font-family: system-ui, sans-serif; background: #090a0d; color: #efefeb; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 540px; margin: 0 auto; padding: 48px 24px; }
+.brand { display: flex; align-items: center; gap: 10px; font-size: 22px; font-weight: 800; }
+.brand img { width: 32px; height: 32px; }
+h1 { margin: 40px 0 16px; font-size: 30px; line-height: 1.2; letter-spacing: 0; }
+p { color: #b9b9be; line-height: 1.6; }
+a { display: inline-flex; align-items: center; min-height: 48px; margin-top: 20px; padding: 12px 18px; border-radius: 6px; background: #ff501b; color: #090a0d; font-weight: 700; text-decoration: none; }
+a:focus-visible { outline: 3px solid #7bc5d6; outline-offset: 4px; }
+noscript p { font-size: 14px; overflow-wrap: anywhere; }
